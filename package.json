@@ -1,0 +1,11 @@
+{
+  "name": "restify-mosquitto-auth",
+  "version": "0.0.0",
+  "description": "restify based server for mosquitto-auth-plug",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben West",
+  "license": "GPL3"
+}
