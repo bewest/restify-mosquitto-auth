@@ -11,12 +11,14 @@ function createServer (opts) {
   };
 
   function setup (req, res, next) {
+    console.log('BODY', req.body);
+    console.log('PARAMS', req.params);
     req.grant = {
-      username: req.body.username
-    , password: req.body.password
-    , topic: req.body.topic
-    , acc: req.body.acc
-    , type: ACC[req.body.acc]
+      username: req.params.username
+    , password: req.params.password
+    , topic: req.params.topic
+    , acc: req.params.acc
+    , type: ACC[req.params.acc]
     };
     res.payload = { allowed: null };
     next( );
