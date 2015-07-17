@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ben West",
-  "license": "GPL3"
+  "license": "GPL3",
+  "dependencies": {
+    "restify": "^3.0.3"
+  }
 }
